@@ -9,7 +9,7 @@ class Person {
         return `My name is ${this.name} and I am ${this.age} years old.`;
     }
     sayGoodbye(name) {
-        return `"Dear ${this.name}, it was a pleasure meeting you!`;
+        return `Dear ${this.name}, it was a pleasure meeting you!`;
     }
 }
 let p = new Person('Ivan Ivanov', 25);
